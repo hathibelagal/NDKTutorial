@@ -1,0 +1,3 @@
+/home/simple/Projects/tmp/U1/MyNativeApplication/app/.externalNativeBuild/cmake/debug/mips/CMakeFiles/rebuild_cache.dir
+/home/simple/Projects/tmp/U1/MyNativeApplication/app/.externalNativeBuild/cmake/debug/mips/CMakeFiles/edit_cache.dir
+/home/simple/Projects/tmp/U1/MyNativeApplication/app/.externalNativeBuild/cmake/debug/mips/CMakeFiles/native-lib.dir

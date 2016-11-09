@@ -1,0 +1,38 @@
+
+{
+	"buildFiles" : [ "/home/simple/Projects/tmp/U1/MyNativeApplication/app/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"/home/simple/Android/Sdk/cmake/3.6.3155560/bin/cmake --build /home/simple/Projects/tmp/U1/MyNativeApplication/app/.externalNativeBuild/cmake/debug/armeabi --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"native-lib-Debug-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "native-lib",
+			"buildCommand" : "/home/simple/Android/Sdk/cmake/3.6.3155560/bin/cmake --build /home/simple/Projects/tmp/U1/MyNativeApplication/app/.externalNativeBuild/cmake/debug/armeabi --target native-lib",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  -target armv5te-none-linux-androideabi -gcc-toolchain /home/simple/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/simple/Android/Sdk/ndk-bundle/platforms/android-15/arch-arm  -Dnative_lib_EXPORTS -isystem /home/simple/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/simple/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /home/simple/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/simple/Projects/tmp/U1/MyNativeApplication/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "/home/simple/Projects/tmp/U1/MyNativeApplication/app/.externalNativeBuild/cmake/debug/armeabi"
+				}
+			],
+			"output" : "/home/simple/Projects/tmp/U1/MyNativeApplication/app/build/intermediates/cmake/debug/obj/armeabi/libnative-lib.so",
+			"toolchain" : "13308806452305508704"
+		}
+	},
+	"toolchains" : 
+	{
+		"13308806452305508704" : 
+		{
+			"cCompilerExecutable" : "/home/simple/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/home/simple/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+		}
+	}
+}
